@@ -1,0 +1,9 @@
+const menu = (prefix, nomeBot, numeroDono, nomeDono, hora, data, pushname, sender) => {
+return `
+╔═══════════╗
+┣⋆⃟ۣۜ᭪Usuário: ${pushname} 
+┣⋆⃟ۣۜ᭪Dono: ${nomeDono}
+┣⋆⃟ۣۜ᭪Bot: ${nomeBot}═════════╝
+`
+}
+exports.menu = menu
